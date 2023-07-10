@@ -43,17 +43,6 @@ export const HeroSection = () => (
           }}
         >
           <Stack spacing="4">
-            <Badge
-              variant="pill"
-              colorScheme="blue"
-              alignSelf="start"
-              size={{
-                base: 'md',
-                md: 'lg',
-              }}
-            >
-              New components available
-            </Badge>
             <Stack
               spacing={{
                 base: '4',
@@ -84,32 +73,6 @@ export const HeroSection = () => (
                 build your app twice as fast.
               </Text>
             </Stack>
-          </Stack>
-          <Stack
-            direction={{
-              base: 'column',
-              md: 'row',
-            }}
-            spacing="3"
-          >
-            <Button
-              variant="primary"
-              size={{
-                base: 'lg',
-                md: 'xl',
-              }}
-            >
-              Buy now
-            </Button>
-            <Button
-              variant="secondary"
-              size={{
-                base: 'lg',
-                md: 'xl',
-              }}
-            >
-              Learn more
-            </Button>
           </Stack>
         </Stack>
         <Box

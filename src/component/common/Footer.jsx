@@ -62,7 +62,14 @@ const Footer = () => {
             spacing="8"
           >
             <Stack spacing={{ base: '6', md: '8' }} align="start">
-              <Logo />
+              <Box
+                cursor="pointer"
+                onClick={() => {
+                  navigate('/');
+                }}
+              >
+                <Logo />
+              </Box>
               <Text color="fg.accent.muted">
                 Transforming Businesses with Intelligent Automation
               </Text>

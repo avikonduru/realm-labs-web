@@ -2,7 +2,7 @@ import { Box } from '@chakra-ui/react';
 import { useNavbar } from './useNavbar';
 
 // components
-import { Header } from '../component/common/Header/Header';
+import Header from '../component/common/Header/Header';
 
 export const Navbar = () => {
   const { rootProps } = useNavbar();
