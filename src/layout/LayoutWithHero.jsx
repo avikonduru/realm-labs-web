@@ -1,5 +1,5 @@
 import { Flex } from '@chakra-ui/react';
-import { Footer } from './Footer';
+import { FooterLayout } from './Footer';
 import { Main } from './Main';
 import { Navbar } from './Navbar';
 
@@ -11,6 +11,6 @@ export const LayoutWithHero = ({ children }) => (
     <Navbar />
     <HeroSection />
     <Main>{children}</Main>
-    <Footer />
+    <FooterLayout />
   </Flex>
 );

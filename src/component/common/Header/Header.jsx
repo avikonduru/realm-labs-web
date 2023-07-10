@@ -36,13 +36,19 @@ export const Header = () => {
                   colorScheme="gray"
                   spacing="8"
                 >
-                  {['Components', 'Pricing', 'Marketplace', 'Support'].map(
-                    item => (
-                      <Button key={item}>{item}</Button>
-                    )
-                  )}
+                  {[
+                    'About Us',
+                    'Services',
+                    'Industries',
+                    'Case Studies',
+                    'Blog',
+                    'Resources',
+                    'Contact Us',
+                    'FAQ',
+                  ].map(item => (
+                    <Button key={item}>{item}</Button>
+                  ))}
                 </ButtonGroup>
-                <Button>Sign Up</Button>
               </HStack>
             ) : (
               <>
