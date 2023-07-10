@@ -1,12 +1,12 @@
-import { Box, Container } from '@chakra-ui/react';
-import { Placeholder } from './Placeholder';
+import { Box } from '@chakra-ui/react';
+
+// components
+import { Footer as FooterComponent } from '../component/common/Footer';
 
 export const Footer = props => {
   return (
     <Box as="footer" role="contentinfo" bg="bg.accent.default" {...props}>
-      <Container>
-        <Placeholder minH="20">Footer</Placeholder>
-      </Container>
+      <FooterComponent />
     </Box>
   );
 };

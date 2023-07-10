@@ -1,21 +1,12 @@
 import { Fragment } from 'react';
-
-// layout
-import { Footer } from '../layout/Footer';
-import { Main } from '../layout/Main';
-import { Navbar } from '../layout/Navbar';
-
-// chakra
-import { Flex } from '@chakra-ui/react';
+import { Layout } from '../layout/Layout';
 
 const HomePage = () => {
   return (
     <Fragment>
-      <Flex direction="column" flex="1">
-        <Navbar />
-        <Main />
-        <Footer />
-      </Flex>
+      <Layout>
+        <h1>hihi</h1>
+      </Layout>
     </Fragment>
   );
 };

@@ -1,6 +1,8 @@
-import { Box, Container } from '@chakra-ui/react';
-import { Placeholder } from './Placeholder';
+import { Box } from '@chakra-ui/react';
 import { useNavbar } from './useNavbar';
+
+// components
+import { Header } from '../component/common/Header/Header';
 
 export const Navbar = () => {
   const { rootProps } = useNavbar();
@@ -14,9 +16,7 @@ export const Navbar = () => {
       bg="bg.accent.default"
       {...rootProps}
     >
-      <Container>
-        <Placeholder minH="20">Navigation</Placeholder>
-      </Container>
+      <Header />
     </Box>
   );
 };

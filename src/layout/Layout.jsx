@@ -3,10 +3,10 @@ import { Footer } from './Footer';
 import { Main } from './Main';
 import { Navbar } from './Navbar';
 
-export const App = () => (
+export const Layout = ({ children }) => (
   <Flex direction="column" flex="1">
     <Navbar />
-    <Main />
+    <Main>{children}</Main>
     <Footer />
   </Flex>
 );
