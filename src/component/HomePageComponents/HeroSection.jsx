@@ -60,7 +60,7 @@ export const HeroSection = () => (
                   md: 'xl',
                 }}
               >
-                Create your app remarkable fast
+                Transforming Businesses with Intelligent Automation
               </Heading>
               <Text
                 fontSize={{
