@@ -22,7 +22,7 @@ const Navbar = () => {
 					padding: '20px',
 					boxShadow: 'var(--shadow-3)',
 					borderRadius: '15px',
-					margin: '20px 0px 20px 0px',
+					margin: '20px 0px 10px 0px',
 				}}>
 				<Flex align='center'>
 					<Flex
