@@ -12,7 +12,10 @@ import {
 	Grid,
 	Separator,
 } from '@radix-ui/themes';
-import { LinkedInLogoIcon } from '@radix-ui/react-icons';
+import {
+	LinkedInLogoIcon,
+	TwitterLogoIcon,
+} from '@radix-ui/react-icons';
 
 const FooterSection = () => {
 	return (
@@ -61,7 +64,7 @@ const FooterSection = () => {
 									variant='soft'
 									highContrast
 									style={{ background: 'white' }}>
-									<LinkedInLogoIcon
+									<TwitterLogoIcon
 										width='17'
 										height='17'
 									/>
