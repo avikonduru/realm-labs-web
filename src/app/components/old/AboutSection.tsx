@@ -1,4 +1,4 @@
-import { source_serif } from '../fonts';
+import { source_serif } from '../../fonts';
 import Image from 'next/image';
 
 // radix

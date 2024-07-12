@@ -13,22 +13,33 @@ import {
 
 const Navbar = () => {
 	return (
-		<Container
-			maxWidth='1300px'
-			style={{ background: '#221D1E' }}>
+		<Container maxWidth='1300px'>
 			<Flex
 				align='center'
 				justify='between'
-				style={{ padding: '20px 0px 20px 0px' }}>
-				<Text
-					size='7'
-					style={{ paddingLeft: '10px', fontWeight: '900' }}>
-					<span style={{ color: '#FF00FF' }}>realm</span> labs
-					<span style={{ color: '#00FFFF' }}>.</span>
-				</Text>
-				<Flex
-					align='center'
-					gap='9'>
+				style={{
+					background: '#FFFFFF',
+					padding: '20px',
+					boxShadow: 'var(--shadow-3)',
+					borderRadius: '15px',
+					margin: '20px 0px 10px 0px',
+				}}>
+				<Flex align='center'>
+					<Flex
+						align='center'
+						style={{ paddingRight: '60px' }}>
+						<Image
+							src='/assets/images/realm_labs_logo.svg'
+							width={40}
+							height={40}
+							alt='Realm Labs logo'
+						/>
+						<Text
+							size='5'
+							style={{ paddingLeft: '10px', fontWeight: '900' }}>
+							REALM LABS
+						</Text>
+					</Flex>
 					<Flex align='center'>
 						<Link href='#'>
 							<Text
@@ -38,6 +49,7 @@ const Navbar = () => {
 								Services
 							</Text>
 						</Link>
+
 						<Link href='#'>
 							<Text
 								color='gray'
@@ -47,7 +59,9 @@ const Navbar = () => {
 							</Text>
 						</Link>
 					</Flex>
+				</Flex>
 
+				<Box>
 					<Button
 						size='3'
 						variant='solid'>
@@ -57,7 +71,7 @@ const Navbar = () => {
 							Contact Us
 						</Text>
 					</Button>
-				</Flex>
+				</Box>
 			</Flex>
 		</Container>
 	);
