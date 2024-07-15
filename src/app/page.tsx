@@ -5,12 +5,13 @@ import Image from 'next/image';
 // import Navbar from './components/old/Navbar';
 // import HeroSection from './components/old/HeroSection';
 // import ServicesSection from './components/old/ServicesSection';
-import AboutSection from './components/old/AboutSection';
+// import AboutSection from './components/old/AboutSection';
 import FooterSection from './components/old/FooterSection';
 
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import ServicesSection from './components/ServicesSection';
+import AboutSection from './components/AboutSection';
 
 // radix
 import { Box } from '@radix-ui/themes';
@@ -27,6 +28,7 @@ const HomePage = () => {
 			<Navbar />
 			<HeroSection />
 			<ServicesSection />
+			<AboutSection />
 		</Box>
 	);
 };
