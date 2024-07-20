@@ -2,11 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 
 // components
-import Navbar from './components/Navbar';
-import HeroSection from './components/HeroSection';
-import ServicesSection from './components/ServicesSection';
-import AboutSection from './components/AboutSection';
-import FooterSection from './components/FooterSection';
+import Navbar from './components/old-2/Navbar';
+import HeroSection from './components/old-2/HeroSection';
+import ServicesSection from './components/old-2/ServicesSection';
+import AboutSection from './components/old-2/AboutSection';
+import FooterSection from './components/old-2/FooterSection';
 
 // radix
 import { Box } from '@radix-ui/themes';

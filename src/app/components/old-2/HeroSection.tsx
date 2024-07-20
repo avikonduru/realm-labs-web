@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { source_serif } from '../fonts';
+import { source_serif } from '../../fonts';
 
 // radix
 import {
