@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import { source_serif } from '../fonts';
+import { montserrat } from '../fonts';
+import { colors } from '../pallete';
 
 // radix
 import {
@@ -16,7 +17,7 @@ import {
 
 const HeroSection = () => {
 	return (
-		<Box style={{ background: '#D4FAFE' }}>
+		<Box style={{ background: colors.background }}>
 			<Grid
 				columns='9'
 				width='auto'
@@ -28,8 +29,9 @@ const HeroSection = () => {
 						<Box style={{ marginBottom: '20px' }}>
 							<Box>
 								<Text
+									className={montserrat.className}
 									style={{
-										color: '#006D77',
+										color: colors.primary,
 										fontSize: '40px',
 										fontWeight: '800',
 										lineHeight: '50px',
@@ -40,8 +42,9 @@ const HeroSection = () => {
 							</Box>
 							<Box>
 								<Text
+									className={montserrat.className}
 									style={{
-										color: '#E76F51',
+										color: colors.accent,
 										fontSize: '20px',
 										fontWeight: '700',
 										lineHeight: '50px',

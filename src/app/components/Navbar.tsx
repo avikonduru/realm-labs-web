@@ -1,5 +1,6 @@
 import React from 'react';
 import { montserrat } from '../fonts';
+import { colors } from '../pallete';
 
 // radix
 import {
@@ -23,8 +24,8 @@ const Navbar = () => {
 				<Text
 					size='7'
 					style={{ paddingLeft: '10px', fontWeight: '900' }}>
-					<span style={{ color: '#006D77' }}>realm</span> labs
-					<span style={{ color: '#F4A261' }}>.</span>
+					<span style={{ color: colors.primary }}>realm</span> labs
+					<span style={{ color: colors.secondary }}>.</span>
 				</Text>
 				<Flex
 					align='center'
@@ -87,8 +88,9 @@ const Navbar = () => {
 						variant='solid'
 						color='orange'>
 						<Text
+							className={montserrat.className}
 							size='3'
-							weight='medium'>
+							style={{ fontWeight: '600' }}>
 							Book Now
 						</Text>
 					</Button>
