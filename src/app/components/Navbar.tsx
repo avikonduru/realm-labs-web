@@ -19,7 +19,7 @@ const Navbar = () => {
 			<Flex
 				align='center'
 				justify='between'
-				style={{ padding: '20px 0px 20px 0px' }}>
+				style={{ padding: '20px 10px' }}>
 				<Text
 					size='7'
 					style={{ paddingLeft: '10px', fontWeight: '900' }}>
