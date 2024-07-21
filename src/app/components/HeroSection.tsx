@@ -47,7 +47,6 @@ const HeroSection = () => {
 										color: colors.accent,
 										fontSize: '20px',
 										fontWeight: '700',
-										lineHeight: '50px',
 									}}>
 									Choose Your Path to Practice Freedom
 								</Text>

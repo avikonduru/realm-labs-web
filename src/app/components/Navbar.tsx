@@ -14,9 +14,7 @@ import {
 
 const Navbar = () => {
 	return (
-		<Container
-			maxWidth='1300px'
-			style={{}}>
+		<Container maxWidth='1300px'>
 			<Flex
 				align='center'
 				justify='between'
