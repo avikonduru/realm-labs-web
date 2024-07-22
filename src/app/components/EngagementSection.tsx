@@ -17,7 +17,7 @@ import {
 
 const EngagementSection = () => {
 	return (
-		<Container style={{ padding: '30px 20px' }}>
+		<Container style={{ padding: '60px 10px' }}>
 			<Flex
 				direction='column'
 				style={{ marginBottom: '45px' }}>
@@ -25,15 +25,15 @@ const EngagementSection = () => {
 					className={montserrat.className}
 					style={{
 						color: colors.accent,
-						fontSize: '20px',
-						fontWeight: '700',
+						fontSize: '16px',
+						fontWeight: '800',
 					}}>
 					Choose your level of engagement
 				</Text>
 				<Text
 					style={{
 						color: colors.neutral_dark,
-						fontSize: '15px',
+						fontSize: '14px',
 						fontWeight: '600',
 					}}>
 					Imagine spending quality time with patients and loving your

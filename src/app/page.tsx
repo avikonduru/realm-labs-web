@@ -8,6 +8,8 @@ import Navbar from './components/Navbar';
 import { Box } from '@radix-ui/themes';
 import HeroSection from './components/HeroSection';
 import EngagementSection from './components/EngagementSection';
+import ServicesSection from './components/ServicesSection';
+import AboutUsSection from './components/AboutUsSection';
 
 const HomePage = () => {
 	return (
@@ -15,6 +17,8 @@ const HomePage = () => {
 			<Navbar />
 			<HeroSection />
 			<EngagementSection />
+			<ServicesSection />
+			<AboutUsSection />
 		</Box>
 	);
 };
