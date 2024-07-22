@@ -12,6 +12,7 @@ import ServicesSection from './components/ServicesSection';
 import AboutUsSection from './components/AboutUsSection';
 import HowItWorks from './components/HowItWorks';
 import FaqSection from './components/FaqSection';
+import Footer from './components/Footer';
 
 const HomePage = () => {
 	return (
@@ -23,6 +24,7 @@ const HomePage = () => {
 			<AboutUsSection />
 			<HowItWorks />
 			<FaqSection />
+			<Footer />
 		</Box>
 	);
 };
