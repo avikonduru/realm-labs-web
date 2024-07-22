@@ -42,11 +42,11 @@ const EngagementSection = () => {
 			</Flex>
 			<Flex
 				direction='column'
-				align='center'>
+				align='center'
+				style={{ marginBottom: '45px' }}>
 				<Grid
 					columns='3'
-					gap='3'
-					style={{ marginBottom: '45px' }}>
+					gap='3'>
 					<Box style={{ boxShadow: 'var(--shadow-3)' }}>
 						<Box>
 							<Image

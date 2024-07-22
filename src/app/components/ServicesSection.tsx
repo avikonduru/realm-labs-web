@@ -18,7 +18,10 @@ import {
 const ServicesSection = () => {
 	return (
 		<Container
-			style={{ padding: '60px 10px', background: colors.background }}>
+			style={{
+				padding: '60px 10px',
+				background: colors.background_primary,
+			}}>
 			<Flex
 				direction='column'
 				style={{ marginBottom: '45px' }}>

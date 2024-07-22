@@ -17,7 +17,7 @@ import {
 
 const HeroSection = () => {
 	return (
-		<Box style={{ background: colors.background }}>
+		<Box style={{ background: colors.background_primary }}>
 			<Grid
 				columns='9'
 				width='auto'
