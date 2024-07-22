@@ -10,6 +10,7 @@ import HeroSection from './components/HeroSection';
 import EngagementSection from './components/EngagementSection';
 import ServicesSection from './components/ServicesSection';
 import AboutUsSection from './components/AboutUsSection';
+import HowItWorks from './components/HowItWorks';
 
 const HomePage = () => {
 	return (
@@ -19,6 +20,7 @@ const HomePage = () => {
 			<EngagementSection />
 			<ServicesSection />
 			<AboutUsSection />
+			<HowItWorks />
 		</Box>
 	);
 };
